@@ -62,3 +62,15 @@ Overall, your code is well-structured and functional for a basic number guessing
 
 
 
+STUDENT GRADE:
+Student Grade Here's a description of the code:
+
+Input Section:
+
+The program starts by creating a Scanner object (sc) to take input from the user. It prompts the user to enter marks for five subjects (English, Chemistry, Computer, Physics, and Maths). Calculation and Grade Assignment:
+
+The program calls the studentGrade method, passing the marks of the five subjects as arguments. Inside the studentGrade method, it calculates the total marks and percentage. It then prints the total marks and percentage. Based on the percentage, it assigns a grade to the student using a series of if-else statements. Grade Criteria:
+
+If the percentage is greater than or equal to 90%, it assigns Grade A. If the percentage is between 80% and 89%, it assigns Grade B. If the percentage is between 70% and 79%, it assigns Grade C. If the percentage is between 60% and 69%, it assigns Grade D. If the percentage is between 50% and 59%, it assigns Grade E. If the percentage is below 50%, it assigns a Fail grade. Output:
+
+The program prints the total marks, percentage, and the assigned grade. Note: There is a typo in the code where computers is used instead of computer when taking input. It may cause a compilation error. Also, there are typos in Sytem.out.println which should be corrected to System.out.println for proper output
