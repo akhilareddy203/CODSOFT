@@ -42,7 +42,7 @@ These are just suggestions for improvement, and you can choose to implement them
 
 
 
-
+NUMBER GAME:
 Here are a few additional comments:
 
 Closing Scanner:
