@@ -39,3 +39,26 @@ These are just suggestions for improvement, and you can choose to implement them
 
 
 
+
+
+
+
+Here are a few additional comments:
+
+Closing Scanner:
+It's good that you're closing the Scanner at the end of the program. However, keep in mind that closing System.in is generally not recommended. In this simple program, it won't cause issues, but in more complex applications, closing System.in might have unintended consequences.
+java
+Copy code
+input.close();
+Exception Handling:
+
+While you have implemented input validation, you may also want to handle the case where the user decides to exit the program (e.g., by entering a specific key or command).
+Comments:
+
+Consider adding comments to explain specific sections of your code. Even though the code is relatively simple, comments can make it more understandable, especially for someone else reviewing your code.
+Overall, your code is well-structured and functional for a basic number guessing game. Nice job!
+
+
+
+
+
